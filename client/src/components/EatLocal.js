@@ -25,7 +25,7 @@ export default class EatLocal extends Component {
   }
   componentDidMount() {
     // eslint-disable-next-line no-useless-concat
-    axios.get(BACKEND_URL +"/"+ 'restaurant/')
+    axios.get(BACKEND_URL + 'restaurant/')
      .then(response => {
        this.setState({ restaurants: response.data });
      })
