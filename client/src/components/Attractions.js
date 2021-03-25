@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import "../index.css";
 import Attract2 from './Images/attractpage2.jpg';
-import BACKEND_URL from '../config';
+import {BACKEND_URL} from '../config';
 
 const Attraction = props => (
 

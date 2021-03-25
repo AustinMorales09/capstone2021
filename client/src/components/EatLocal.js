@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import coney from './Images/coneys.jpg';
-import BACKEND_URL from '../config';
+import {BACKEND_URL} from '../config';
 
 const Restaurant = props => (
   <div className="card mb-3 card-style">

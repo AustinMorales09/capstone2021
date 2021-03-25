@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import "../index.css";
 import Shop2 from './Images/shoppage2.jpg';
-import BACKEND_URL from '../config';
+import {BACKEND_URL} from '../config';
 
 
 const Shop = props => (

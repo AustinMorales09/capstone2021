@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import tour from './Images/historytour.jpg';
-import BACKEND_URL from '../config';
+import {BACKEND_URL} from '../config';
 
 const History = props => (
   <div className="card mb-3 card-style">
